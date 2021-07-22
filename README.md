@@ -1,0 +1,1 @@
+# CommonMoonB2BStorefrontTemplate
