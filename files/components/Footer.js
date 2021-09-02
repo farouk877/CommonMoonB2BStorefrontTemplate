@@ -76,7 +76,7 @@ class Footer extends Component {
         window.scrollTo(0, 0);
     }
 
-    render() {
+    render() { 
         return (
             <div>
                 <section className="footer-area">
@@ -93,7 +93,7 @@ class Footer extends Component {
                                     </div>
                                     <div className="newsletter-form">
                                         <div className="form-shared">
-                                            <form onSubmit={this.handleSubmit}>
+                                            <form onSubmit={this.handleSubmit}> 
                                                 <div className="row">
                                                     <div className="col-lg-9">
                                                         <div className="form-group">
