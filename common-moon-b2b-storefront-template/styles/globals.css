@@ -1,0 +1,62 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.landingPage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #77bfc6;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoText {
+  top: 35%;
+  height: 20%;
+  font-size: 12em;
+  position: absolute;
+  text-shadow: 0px 4px 4px 0px #00000040;
+  font-family: "Rambla";
+  color: #fff3f3;
+}
+
+.media {
+  top: 10%;
+  height: 35em;
+  width: 60em;
+  position: absolute;
+}
+
+.button {
+  background-color: #c4c4c4;
+  color: #ffffff;
+  font-family: "Rokkitt";
+  position: absolute;
+
+  top: 78%;
+  height: 4em;
+  width: 14em;
+  border: none;
+  box-shadow: 10px 9px 18px 10px rgba(0 0 0 0.25);
+}
